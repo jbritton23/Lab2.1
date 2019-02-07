@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/RoShamBo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Paper Rock Sissors"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/paperButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="PAPER"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/rockButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="ROCK"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/scissorsButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="buttonClick"
+            android:text="SCISSORS"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/playerWeapon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="PLAYER WEAPON" />
+
+        <TextView
+            android:id="@+id/playWeapDisp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/compWeap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Weapon"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/compWeapDisp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/playWinCnt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Player's Wins"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/playWinCntDis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/compWin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Computer Wins"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/compWinDis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/winner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Winner"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/winDisp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24sp" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
